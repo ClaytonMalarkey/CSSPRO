@@ -1,0 +1,84 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin-top: 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  margin-top : 50px;
+  font-size: 40px;
+  color: yellow;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+}
+p{
+  color: white;
+  line-height: 2;
+}
+a{
+  margin: 10px;
+  text-decoration: none;
+  color: yellow;
+}
+a:hover{
+  color: gold;
+}
+.top-container {
+  background-color: red;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: red;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.bottom-container {
+  background-color: red;
+  position: relative;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.code-img {
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.trading {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 40%;
+  margin:40px auto 60px;
+}
